@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="main container">
+        <h1>Create new To Do</h1>
+        <form id="form">
+            <input id="text" type="text" placeholder="Type text">
+            <button class="btn" id="addButton">Add</button>
+        </form>
+        <div class="row">
+            <div class="column">
+                <h1>To Do</h1>
+                <div id="todoList"></div>
+            </div>
+
+            <div class="column">
+                <h1>In Progress</h1>
+                <div id="progressList"></div>
+            </div>
+
+            <div class="column">
+                <h1>Done</h1>
+                <div id="doneList"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
